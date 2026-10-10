@@ -68,7 +68,8 @@ try {
 
     Write-Host "[4/4] push finished"
     Write-Host ""
-    Write-Host "One manual step is left (GitHub Pages cannot be switched on from git):"
+    Write-Host "Finished. GitHub Pages rebuilds automatically on every push."
+    Write-Host "If Pages is not enabled for this repo yet (only needed once):"
     Write-Host "  1. Open https://github.com/$User/$Repo/settings/pages"
     Write-Host "  2. Source = 'Deploy from a branch'"
     Write-Host "  3. Branch = $Branch , Folder = / (root) , then press Save"
